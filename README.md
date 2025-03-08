@@ -9,5 +9,5 @@ Sovelluksessa voi lisätä uusia tehtäviä, merkitä tehtävän valmiiksi, koro
 
 Esittely sovelluksesta: tulossa
 
-<img src="koko_ruutu.jpeg" alt="alt text" width="400"/>
-<img src="kirjotus.jpeg" alt="alt text" width="400"/>
+<img src="koko_ruutu.jpg" alt="alt text" width="400"/>
+<img src="kirjotus.jpg" alt="alt text" width="400"/>
