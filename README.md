@@ -7,7 +7,7 @@ Muistilista äppi on yksinkertainen sovellus, jonka avulla käyttäjä voi kirja
 Sovelluksessa voi lisätä uusia tehtäviä, merkitä tehtävän valmiiksi, korostaa tehtävä tärkeäksi, jolloin se nousee listan kärkeen sekä poistaa tehtävän.
 
 
-Esittely sovelluksesta: tulossa
+Esittely sovelluksesta: https://www.youtube.com/shorts/3z5kWi3k0Oc
 
 <img src="koko_ruutu.jpg" alt="alt text" width="400"/>
 <img src="kirjotus.jpg" alt="alt text" width="400"/>
