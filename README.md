@@ -9,5 +9,5 @@ Sovelluksessa voi lisätä uusia tehtäviä, merkitä tehtävän valmiiksi, koro
 
 Esittely sovelluksesta: https://www.youtube.com/shorts/3z5kWi3k0Oc
 
-<img src="koko_ruutu_2.jpg" alt="alt text" width="400"/>
+<img src="kokoruutu_2.jpg" alt="alt text" width="400"/>
 <img src="kirjotus.jpg" alt="alt text" width="400"/>
