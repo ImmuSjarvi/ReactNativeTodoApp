@@ -46,9 +46,9 @@ export default function Index() {
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Tehtäväsi tänään</Text>
 
-    {/* Flatlist komponentti, joka renderöi muistettavat tehtävät ruudulle.
-    sort metodia käyttäen tärkeät tehtävät nostetaan ylimmäksi ruudulle renderöidyssä listassa*/}
-     <FlatList 
+      {/* Flatlist komponentti, joka renderöi muistettavat tehtävät ruudulle.
+      sort metodia käyttäen tärkeät tehtävät nostetaan ylimmäksi ruudulle renderöidyssä listassa*/}
+      <FlatList 
         data={toDos.sort((a,b) => {
           if (a.isImportant === true && b.isImportant === false) {
             return -1
@@ -61,7 +61,8 @@ export default function Index() {
         renderItem={({item}) => <ListItem todo={item} updateTodos={updateTodos} deleteTodo={deleteTodo}/>}
         keyExtractor={item => item.id}
       />
-      {/* Flatlist komponenttissa välitetään ListItem komponentille propsien kautta todo lista, sekä funktiot listan päivittämistä varten.*/}
+      {/* Flatlist komponenttissa välitetään ListItem komponentille propsien kautta tehtävä lista, 
+        sekä funktiot listan päivittämistä varten.*/}
 
       <View style={styles.uusiBoxi}>
         <Text style={styles.uustodo}>Lisää uusi tehtävä</Text>

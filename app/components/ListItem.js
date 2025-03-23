@@ -13,27 +13,24 @@ export default function ListItem(props) {
   const pressedText = () => {
       setIsPressedText(!isPressedText)
   }
-
   //Functio, jota käytetään tehtävän tärkeäksi nostamiseen
   const pressedBox = () => {
     setIsPressedBox(!isPressedBox)
     props.todo.isImportant = !props.todo.isImportant
     props.updateTodos()
-}
-  
-  
+  }   
   return (
     <View style={styles.kokonaisuus}>
       <View style={styles.tehtRivi}>
-
         <Pressable onPress={pressedText} >
-          <Text style={[styles.teksti,{textDecorationLine: isPressedText ? 'line-through' : ''}, {backgroundColor: isPressedText ? '#faebd7' : 'white'}]}>{props.todo.description}</Text>
+          <Text style={[styles.teksti,{textDecorationLine: isPressedText ? 'line-through' : ''}, 
+            {backgroundColor: isPressedText ? '#faebd7' : 'white'}]}>{props.todo.description}
+          </Text>
         </Pressable>
-
         <View style={styles.iconit}>
-          
-          <Icon2 style={styles.laatikko} name="staro" size={25} onPress={pressedBox} color="goldenrod" backgroundColor={isPressedBox ? 'yellow': 'white'}  />
-          
+          <Icon2 style={styles.laatikko} name="staro" size={25} onPress={pressedBox} color="goldenrod" 
+            backgroundColor={isPressedBox ? 'yellow': 'white'}  
+          />
           <Icon name="trash-alt" size={23} color="red" onPress={() => props.deleteTodo(props.todo.id)}/>
         </View>
       </View>
