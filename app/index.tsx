@@ -61,7 +61,7 @@ export default function Index() {
         renderItem={({item}) => <ListItem todo={item} updateTodos={updateTodos} deleteTodo={deleteTodo}/>}
         keyExtractor={item => item.id}
       />
-      {/* Flatlist komponenttissa välitetään ListItem komponentille propsien kautta tehtävä lista, 
+      {/* Flatlist komponenttissa välitetään ListItem komponentille propsien kautta tehtävälista, 
         sekä funktiot listan päivittämistä varten.*/}
 
       <View style={styles.uusiBoxi}>
